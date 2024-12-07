@@ -1,0 +1,29 @@
+{% extends 'layout.html' %}
+
+{% load static %}
+
+{%block body%}
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <img src="{% static 'img/kitu.png' %}" sizes="(width: 200px) 200px, 50vw" data-aos="fade-in">
+
+      <div class="container" data-aos="zoom-out" data-aos-delay="100">
+        <h2>Shauri <br>Online Mentorship</h2>
+        <p>Open to one and every <span class="typed" data-typed-items="Mentor, Mentee, Alumnus, Industry Professional, Revoluntionary, Changemaker ">Mentor</span><span class="typed-cursor typed-cursor--blink"></span></p>
+        <div class="social-links">
+          <a href="https://x.com/mksaruni/"><i class="bi bi-twitter-x"></i></a>
+          <a href="https://www.facebook.com/mksaruni.44"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/mksaruni/"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/saruni/"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+   
+  </main>
+ {% endblock %}
+  
